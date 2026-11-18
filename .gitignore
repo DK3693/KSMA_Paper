@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local model assets and datasets
+models/
+weights/
+checkpoints/
+private_data/
+raw_data/
+datasets/private/
+*.onnx
+*.pth
+*.pt
+*.safetensors
+
+# Runs / annotations / internal artifacts
+RESULTS/
+results/
+outputs/
+logs/
+*.log
+*.tmp
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local research documents that should not be added accidentally
+*.hwp
+*.hwpx
+
+# Authorize and add public deliverables explicitly

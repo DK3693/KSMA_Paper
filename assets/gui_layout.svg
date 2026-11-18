@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="850" viewBox="0 0 2200 850">
+<defs><style>
+  .title {font-family:"Noto Sans CJK KR",sans-serif;font-weight:700;font-size:43px;fill:#eef5fc}
+  .tag {font-family:"Noto Sans CJK KR",sans-serif;font-weight:700;font-size:22px;fill:#adcee9}
+  .top {font-family:"Noto Sans CJK KR",sans-serif;font-weight:600;font-size:25px;fill:#305475}
+  .panelTitle {font-family:"Noto Sans CJK KR",sans-serif;font-weight:700;font-size:31px;fill:#244567}
+  .panelText {font-family:"Noto Sans CJK KR",sans-serif;font-weight:400;font-size:24px;fill:#526a83}
+  .small {font-family:"Noto Sans CJK KR",sans-serif;font-size:22px;fill:#45637d}
+</style></defs>
+<rect width="2200" height="850" fill="#f5f8fc"/>
+<rect x="25" y="25" width="2150" height="93" rx="18" fill="#21466f"/>
+<text x="63" y="89" class="title">KERI VeriDoc  /  Desktop Review Console</text>
+<text x="1833" y="82" class="tag">UI LAYOUT SCHEMATIC</text>
+<rect x="25" y="135" width="2150" height="100" rx="17" fill="#ffffff" stroke="#c9d8e5" stroke-width="3"/>
+<rect x="56" y="157" width="375" height="57" rx="12" fill="#e4edf8"/><text x="82" y="195" class="top">Reference PDF  ·  Test PDF</text>
+<rect x="457" y="157" width="242" height="57" rx="12" fill="#3272ad"/><text x="495" y="195" style="font-family:'Noto Sans CJK KR';font-size:25px;font-weight:700;fill:white">Run Analysis</text>
+<rect x="731" y="157" width="456" height="57" rx="12" fill="#edf2f6"/><text x="762" y="195" class="top">Progress  /  Page  2 of 6</text>
+<rect x="1217" y="157" width="435" height="57" rx="12" fill="#edf2f6"/><text x="1257" y="195" class="top">Settings  ·  Logs  ·  Summary</text>
+<rect x="1681" y="157" width="447" height="57" rx="12" fill="#e7f2eb"/><text x="1743" y="195" class="top">Local Desktop Workflow</text>
+<!-- four columns -->
+<rect x="25" y="251" width="323" height="493" rx="18" fill="white" stroke="#c4d4e4" stroke-width="3"/>
+<rect x="363" y="251" width="585" height="493" rx="18" fill="white" stroke="#c4d4e4" stroke-width="3"/>
+<rect x="963" y="251" width="585" height="493" rx="18" fill="white" stroke="#c4d4e4" stroke-width="3"/>
+<rect x="1563" y="251" width="612" height="493" rx="18" fill="white" stroke="#c4d4e4" stroke-width="3"/>
+<!-- left -->
+<text x="54" y="306" class="panelTitle">Page Navigator</text>
+<rect x="49" y="333" width="274" height="48" rx="9" fill="#eff5fb"/><text x="67" y="366" class="panelText">All  ·  Numeric  ·  Visual</text>
+<text x="65" y="417" class="panelText">Page 01   |   2 events</text>
+<text x="65" y="469" class="panelText">Page 02   |   1 event</text>
+<rect x="48" y="487" width="275" height="63" rx="11" fill="#e1edf9" stroke="#78a5ce" stroke-width="2"/>
+<text x="65" y="532" class="panelText">Page 03   |   3 events</text>
+<text x="65" y="592" class="panelText">Page 04   |   0 events</text>
+<text x="65" y="650" class="panelText">Review navigation</text>
+<!-- before -->
+<text x="400" y="306" class="panelTitle">BEFORE</text><text x="685" y="306" class="small">Reference document</text>
+<rect x="399" y="326" width="516" height="338" rx="10" fill="#f7f9fb" stroke="#d3dde7" stroke-width="2"/>
+<text x="425" y="372" class="panelText">Technical test report</text>
+<line x1="426" y1="395" x2="885" y2="395" stroke="#c5d5e3" stroke-width="3"/>
+<text x="427" y="455" class="panelText">Rated voltage</text><text x="789" y="455" class="panelText">100</text>
+<line x1="425" y1="470" x2="887" y2="470" stroke="#dce5ec" stroke-width="2"/>
+<text x="427" y="525" class="panelText">Load current</text><text x="789" y="525" class="panelText">100</text>
+<line x1="425" y1="540" x2="887" y2="540" stroke="#dce5ec" stroke-width="2"/>
+<text x="427" y="595" class="panelText">Reference value</text><text x="789" y="595" class="panelText">100</text>
+<rect x="778" y="419" width="82" height="46" rx="6" fill="none" stroke="#357aba" stroke-width="4"/>
+<rect x="778" y="489" width="82" height="46" rx="6" fill="none" stroke="#357aba" stroke-width="4"/>
+<text x="401" y="705" class="small">Synchronized zoom / pan</text>
+<!-- after -->
+<text x="1000" y="306" class="panelTitle">ALIGNED AFTER</text><text x="1332" y="306" class="small">Test document</text>
+<rect x="999" y="326" width="516" height="338" rx="10" fill="#f7f9fb" stroke="#d3dde7" stroke-width="2"/>
+<text x="1025" y="372" class="panelText">Technical test report</text>
+<line x1="1026" y1="395" x2="1485" y2="395" stroke="#c5d5e3" stroke-width="3"/>
+<text x="1027" y="455" class="panelText">Rated voltage</text><text x="1389" y="455" class="panelText">120</text>
+<line x1="1025" y1="470" x2="1487" y2="470" stroke="#dce5ec" stroke-width="2"/>
+<text x="1027" y="525" class="panelText">Load current</text><text x="1389" y="525" class="panelText">120</text>
+<line x1="1025" y1="540" x2="1487" y2="540" stroke="#dce5ec" stroke-width="2"/>
+<text x="1027" y="595" class="panelText">Reference value</text><text x="1389" y="595" class="panelText">100</text>
+<rect x="1378" y="419" width="82" height="46" rx="6" fill="none" stroke="#d65858" stroke-width="4"/>
+<rect x="1378" y="489" width="82" height="46" rx="6" fill="none" stroke="#d65858" stroke-width="4"/>
+<text x="1001" y="705" class="small">Overlay and detailed crop inspection</text>
+<!-- review panel -->
+<text x="1600" y="306" class="panelTitle">Change Review</text>
+<rect x="1597" y="330" width="541" height="56" rx="8" fill="#e7f0f9"/>
+<text x="1622" y="367" class="top">Event ID      Change         Status</text>
+<text x="1620" y="432" class="panelText">#01            100 → 120       Numeric</text>
+<line x1="1610" y1="447" x2="2140" y2="447" stroke="#dce5ec" stroke-width="2"/>
+<text x="1620" y="500" class="panelText">#02            100 → 120       Numeric</text>
+<line x1="1610" y1="514" x2="2140" y2="514" stroke="#dce5ec" stroke-width="2"/>
+<rect x="1598" y="550" width="538" height="147" rx="12" fill="#f0f5fa"/>
+<text x="1620" y="598" class="panelTitle">Selected event</text>
+<text x="1620" y="638" class="panelText">Candidate ID + paired crop viewer</text>
+<text x="1620" y="674" class="small">Annotation / result review</text>
+<!-- footer -->
+<rect x="25" y="765" width="2150" height="58" rx="15" fill="#e4edf6"/>
+<text x="68" y="803" class="top">Native Python UI · Tkinter/ttk · PDF review rendering · structured results</text>
+</svg>

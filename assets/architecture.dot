@@ -1,0 +1,14 @@
+digraph KERI {
+  graph [bgcolor="transparent", rankdir=LR, splines=ortho, nodesep=0.53, ranksep=0.60, pad=0.25, fontname="Noto Sans CJK KR", labelloc=t, label="KERI VeriDoc  |  Numeric Change Localization Pipeline", fontsize=20, fontcolor="#1c375d"];
+  node [shape=box, style="rounded,filled", fillcolor="#F1F5FA", color="#AFC4DC", penwidth=1.4, fontname="Noto Sans CJK KR", fontsize=12.2, fontcolor="#18324D", margin="0.17,0.14"];
+  edge [color="#52749F", penwidth=1.9, arrowsize=0.72];
+  inputs [label="Reference PDF\n+ Test PDF", fillcolor="#DFEAF7", color="#7298C4"];
+  align [label="Image Alignment\nORB + RANSAC\nHomography"];
+  tile [label="Overlapping Tiles\n768 × 768 px\nStride 640 px"];
+  stage1 [label="Stage 1 · Qwen3-VL 8B\nNumeric change events\n+ contextual cues", fillcolor="#E2EEF9", color="#5384B6"];
+  ocr [label="PaddleOCR PP-OCRv5\nFull-page text regions\n+ geometric pairing", fillcolor="#EDF6EF", color="#6B9B79"];
+  stage2 [label="Stage 2 · Qwen3-VL 8B\nSelect OCR candidate IDs\nusing event context", fillcolor="#E2EEF9", color="#5384B6"];
+  bbox [label="Localized Change\nOCR bounding box\n+ review overlay", fillcolor="#D6F0E0", color="#4E9E71"];
+  inputs -> align -> tile -> stage1 -> stage2 -> bbox;
+  align -> ocr -> stage2;
+}
