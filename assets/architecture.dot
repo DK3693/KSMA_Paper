@@ -8,7 +8,7 @@ digraph TechnicalDocuments {
   stage1 [label="Stage 1 · Qwen3-VL 8B\nNumeric change events\n+ contextual cues", fillcolor="#E2EEF9", color="#5384B6"];
   ocr [label="PaddleOCR PP-OCRv5\nFull-page text regions\n+ geometric pairing", fillcolor="#EDF6EF", color="#6B9B79"];
   stage2 [label="Stage 2 · Qwen3-VL 8B\nSelect OCR candidate IDs\nusing event context", fillcolor="#E2EEF9", color="#5384B6"];
-  bbox [label="Localized Change\nOCR bounding box\n+ review overlay", fillcolor="#D6F0E0", color="#4E9E71"];
+  bbox [label="Localized Change\nOCR bounding box\n+ candidate mapping", fillcolor="#D6F0E0", color="#4E9E71"];
   inputs -> align -> tile -> stage1 -> stage2 -> bbox;
   align -> ocr -> stage2;
 }

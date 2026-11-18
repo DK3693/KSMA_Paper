@@ -98,7 +98,7 @@
 <path fill="#d6f0e0" stroke="#4e9e71" stroke-width="1.4" d="M1008,-107C1008,-107 902,-107 902,-107 896,-107 890,-101 890,-95 890,-95 890,-60 890,-60 890,-54 896,-48 902,-48 902,-48 1008,-48 1008,-48 1014,-48 1020,-54 1020,-60 1020,-60 1020,-95 1020,-95 1020,-101 1014,-107 1008,-107"/>
 <text text-anchor="middle" x="955" y="-87.24" font-family="Arial" font-size="12.20" fill="#18324d">Localized Change</text>
 <text text-anchor="middle" x="955" y="-74.24" font-family="Arial" font-size="12.20" fill="#18324d">OCR bounding box</text>
-<text text-anchor="middle" x="955" y="-61.24" font-family="Arial" font-size="12.20" fill="#18324d">+ review overlay</text>
+<text text-anchor="middle" x="955" y="-61.24" font-family="Arial" font-size="12.20" fill="#18324d">+ candidate mapping</text>
 </g>
 <!-- stage2&#45;&gt;bbox -->
 <g id="edge5" class="edge">

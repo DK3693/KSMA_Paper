@@ -4,9 +4,9 @@
 
 **Localizing numeric changes in technical documents through contextual VLM reasoning and OCR-grounded candidate selection.**
 
-[한국어](README.md) · [Research summary](paper/README.md) · [Architecture](docs/ARCHITECTURE.md) · [Evaluation](docs/EVALUATION.md) · [Desktop GUI](docs/GUI.md)
+[한국어](README.md) · [Research summary](paper/README.md) · [Architecture](docs/ARCHITECTURE.md) · [Evaluation](docs/EVALUATION.md)
 
-`Python` · `Qwen3-VL 8B Instruct` · `PaddleOCR / PP-OCRv5` · `OpenCV` · `Tkinter / ttk`
+`Python` · `Qwen3-VL 8B Instruct` · `PaddleOCR / PP-OCRv5` · `OpenCV`
 
 | Precision | Recall | Precision gain over OCR Only |
 |:---:|:---:|:---:|
@@ -26,7 +26,6 @@ Technical documents can contain repeated values and even repeated transitions su
 - **Geometry-grounded output:** derive final bounding boxes from OCR detections.
 - **Contextual disambiguation:** distinguish repeated transitions using nearby labels, units, and spatial cues.
 - **Aligned local comparison:** ORB/RANSAC homography and overlapping tiles provide corresponding image regions.
-- **Human review workflow:** a related desktop prototype offers synchronized document views, event inspection, overlays, and paired crop previews.
 
 ## Architecture
 
@@ -64,22 +63,6 @@ Two occurrences of the same numeric transition can correspond to different field
 
 These are results reported in the supplied research materials for **text-region localization** on the stated evaluation set. Full comparisons and metric definitions are in [EVALUATION.md](docs/EVALUATION.md).
 
-## Desktop Review Interface
-
-![Desktop GUI layout schematic](assets/gui_layout.png)
-
-The related Tkinter/ttk desktop prototype supports:
-
-- Reference/test PDF selection and analysis controls.
-- Run and page navigation with Numeric / Visual filters.
-- Synchronized BEFORE / ALIGNED AFTER viewers.
-- Bounding-box overlays and per-event explanations.
-- Paired crop inspection and JSON review annotations.
-
-*The image is a layout schematic. The GUI's E2E engine and the paper's candidate-selection experiment are separate configurations.*
-
-[GUI structure and workflow →](docs/GUI.md)
-
 ## Research
 
 **Korean title:** 기술문서의 수치 변조 위치 식별을 위한 경량 VLM 기반 OCR 후보 선택 기법  
@@ -91,4 +74,4 @@ The related Tkinter/ttk desktop prototype supports:
 
 ## Repository Contents
 
-This technical portfolio contains research documentation and visual diagrams: architecture, evaluation, a related desktop review interface, and a [research abstract](paper/README.md). Editable Graphviz and SVG diagram assets are included alongside PNG previews.
+This technical portfolio contains research documentation and visual diagrams: architecture, evaluation, and a [research abstract](paper/README.md). Editable Graphviz and SVG diagram assets are included alongside PNG previews.

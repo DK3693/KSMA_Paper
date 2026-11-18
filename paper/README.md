@@ -10,7 +10,7 @@
 
 ## Research Materials
 
-이 저장소에는 연구 초록, 아키텍처, 보고된 평가 결과 및 관련 데스크톱 GUI 구성도를 공개합니다.
+이 저장소에는 연구 초록, 아키텍처와 보고된 평가 결과를 공개합니다.
 
 - [Project overview](../README.md)
 - [Architecture](../docs/ARCHITECTURE.md)

@@ -73,7 +73,7 @@ Selected candidates:
 
 ### Step 6 — Bounding-Box Localization
 
-2차 VLM이 선택한 ID로부터 해당 OCR 영역의 좌표를 참조합니다. 최종 출력은 **문서의 수치 변경 위치에 대응하는 Bounding Box**이며, 검토 화면의 시각적 강조 표시에 활용할 수 있습니다.
+2차 VLM이 선택한 ID로부터 해당 OCR 영역의 좌표를 참조합니다. 최종 출력은 **문서의 수치 변경 위치에 대응하는 Bounding Box**입니다.
 
 ## 3. Design Rationale
 
@@ -84,10 +84,3 @@ Selected candidates:
 | Stage-1 VLM | 단순 문자열 대조에서 얻기 어려운 주변 문맥 단서 추출 |
 | OCR geometry as candidates | 문자 영역의 위치를 명시적인 검색·선택 후보로 제공 |
 | Stage-2 VLM selection | 변경 이벤트의 의미와 실제 문자 위치를 ID 매핑으로 연결 |
-| Native desktop review UI | 검토자가 변경 영역을 시각적으로 대조할 수 있는 인터페이스 제공 |
-
-## 4. Relationship to the Desktop GUI
-
-이 문서의 **OCR + VLM candidate-selection pipeline**은 학술논문의 실험 구성입니다. 별도로 구현된 **기술문서 검토 GUI**는 문서쌍 선택·검토·결과 탐색을 위한 데스크톱 UI이며, 기존 E2E 실행 엔진을 사용하는 관련 프로토타입입니다. 두 구성을 구별해 소개합니다.
-
-자세한 UI 구성은 [GUI.md](GUI.md)를 참고하세요.
