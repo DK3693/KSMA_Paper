@@ -1,4 +1,4 @@
-# KSMA Paper · KERI VeriDoc
+# KSMA Paper · Technical Document Analysis
 
 ### 경량 VLM 기반 기술문서 수치 변경 위치 식별
 
@@ -16,7 +16,7 @@
 
 ## Overview
 
-**KERI VeriDoc**은 기준 문서와 검사 문서를 비교해 수치 변경과 해당 문자 영역의 위치를 식별하는 연구 프로토타입입니다. 시험성적서와 같은 기술문서에서는 같은 숫자가 여러 항목에 나타나고, `100 → 120`처럼 동일한 변경쌍도 반복됩니다. 변경값을 찾는 것에 더해 **문서의 어느 항목에서 변경이 발생했는지** 연결하는 것이 핵심 과제입니다.
+**Technical Document Analysis**은 기준 문서와 검사 문서를 비교해 수치 변경과 해당 문자 영역의 위치를 식별하는 연구 프로토타입입니다. 시험성적서와 같은 기술문서에서는 같은 숫자가 여러 항목에 나타나고, `100 → 120`처럼 동일한 변경쌍도 반복됩니다. 변경값을 찾는 것에 더해 **문서의 어느 항목에서 변경이 발생했는지** 연결하는 것이 핵심 과제입니다.
 
 이 연구는 VLM의 문맥 이해와 OCR의 문자 영역 검출을 결합합니다. **1차 VLM이 변경 이벤트를 추출하고, 2차 VLM이 OCR 후보 ID를 선택**합니다. 최종 위치는 선택된 OCR Bounding Box의 좌표로 결정합니다.
 
@@ -32,7 +32,7 @@
 
 ## System Architecture
 
-![KERI VeriDoc 연구 파이프라인](assets/architecture.png)
+![Technical Document Analysis 연구 파이프라인](assets/architecture.png)
 
 **VLM은 변경 내용을 해석하고, OCR은 위치 후보를 제공하며, VLM은 문맥에 맞는 후보를 선택합니다.**
 
@@ -72,9 +72,9 @@
 
 ## Desktop Review GUI
 
-관련 **VeriDoc 데스크톱 검토 프로토타입**은 문서 선택부터 변경 영역 검토까지 연결하는 Tkinter/ttk 기반 인터페이스입니다.
+관련 **기술문서 데스크톱 검토 프로토타입**은 문서 선택부터 변경 영역 검토까지 연결하는 Tkinter/ttk 기반 인터페이스입니다.
 
-![VeriDoc 데스크톱 검토 화면 구성도](assets/gui_layout.png)
+![기술문서 데스크톱 검토 화면 구성도](assets/gui_layout.png)
 
 *GUI 레이아웃 구성도. 논문의 후보 선택 실험과 GUI의 E2E 엔진은 별도 구성입니다.*
 

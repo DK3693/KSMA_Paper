@@ -1,12 +1,12 @@
-# Desktop GUI — KERI VeriDoc Review Console
+# Desktop GUI — Technical Document Review Console
 
 ## Overview
 
-**KERI VeriDoc**의 관련 데스크톱 GUI 프로토타입은 분석 결과를 시각적으로 검토하는 데 초점을 둔 **Python Tkinter/ttk** 기반 애플리케이션입니다. 브라우저 기반 뷰어가 아니라 로컬 데스크톱 창에서 문서 선택, 결과 탐색, 비교 및 검토 작업을 수행하도록 구성했습니다.
+**기술문서 검토 GUI 프로토타입**은 분석 결과를 시각적으로 검토하는 데 초점을 둔 **Python Tkinter/ttk** 기반 애플리케이션입니다. 브라우저 기반 뷰어가 아니라 로컬 데스크톱 창에서 문서 선택, 결과 탐색, 비교 및 검토 작업을 수행하도록 구성했습니다.
 
 ![Desktop GUI layout schematic](../assets/gui_layout.png)
 
-> 위 도식은 실제 `keri_veridoc_desktop_gui_v0_10_review.py`의 화면 구성과 기능을 바탕으로 만든 **레이아웃 개념도**이며, 애플리케이션 실행 화면을 캡처한 것은 아닙니다.
+> 위 도식은 실제 데스크톱 검토 GUI의 화면 구성과 기능을 바탕으로 만든 **레이아웃 개념도**이며, 애플리케이션 실행 화면을 캡처한 것은 아닙니다.
 
 ## Workflow
 
@@ -55,4 +55,4 @@
 - **Result model:** Structured JSON artifacts and per-run result directories.
 - **Execution:** Local desktop orchestration. The related engine configuration may use a loopback Ollama service (`127.0.0.1`).
 
-**Scope distinction:** 이 GUI는 관련 VeriDoc E2E 검토 도구이며, 논문의 6쌍 합성 데이터 실험과 동일한 실행 엔진을 사용했다는 의미는 아닙니다. GitHub 포트폴리오에서는 **문서 분석 파이프라인과 검토 인터페이스라는 두 가지 엔지니어링 성과**로 각각 소개합니다.
+**Scope distinction:** 이 GUI는 관련 기술문서 E2E 검토 도구이며, 논문의 6쌍 합성 데이터 실험과 동일한 실행 엔진을 사용했다는 의미는 아닙니다. GitHub 포트폴리오에서는 **문서 분석 파이프라인과 검토 인터페이스라는 두 가지 엔지니어링 성과**로 각각 소개합니다.

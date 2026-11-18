@@ -88,6 +88,6 @@ Selected candidates:
 
 ## 4. Relationship to the Desktop GUI
 
-이 문서의 **OCR + VLM candidate-selection pipeline**은 학술논문의 실험 구성입니다. 별도로 구현된 **VeriDoc GUI**는 문서쌍 선택·검토·결과 탐색을 위한 데스크톱 UI이며, 기존 E2E 실행 엔진을 사용하는 관련 프로토타입입니다. 두 구성을 구별해 소개합니다.
+이 문서의 **OCR + VLM candidate-selection pipeline**은 학술논문의 실험 구성입니다. 별도로 구현된 **기술문서 검토 GUI**는 문서쌍 선택·검토·결과 탐색을 위한 데스크톱 UI이며, 기존 E2E 실행 엔진을 사용하는 관련 프로토타입입니다. 두 구성을 구별해 소개합니다.
 
 자세한 UI 구성은 [GUI.md](GUI.md)를 참고하세요.

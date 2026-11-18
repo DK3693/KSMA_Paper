@@ -1,6 +1,6 @@
-digraph KERI {
-  graph [bgcolor="transparent", rankdir=LR, splines=ortho, nodesep=0.53, ranksep=0.60, pad=0.25, fontname="Noto Sans CJK KR", labelloc=t, label="KERI VeriDoc  |  Numeric Change Localization Pipeline", fontsize=20, fontcolor="#1c375d"];
-  node [shape=box, style="rounded,filled", fillcolor="#F1F5FA", color="#AFC4DC", penwidth=1.4, fontname="Noto Sans CJK KR", fontsize=12.2, fontcolor="#18324D", margin="0.17,0.14"];
+digraph TechnicalDocuments {
+  graph [bgcolor="transparent", rankdir=LR, splines=ortho, nodesep=0.53, ranksep=0.60, pad=0.25, fontname="Arial", labelloc=t, label="Technical Documents  |  Numeric Change Localization", fontsize=20, fontcolor="#1c375d"];
+  node [shape=box, style="rounded,filled", fillcolor="#F1F5FA", color="#AFC4DC", penwidth=1.4, fontname="Arial", fontsize=12.2, fontcolor="#18324D", margin="0.17,0.14"];
   edge [color="#52749F", penwidth=1.9, arrowsize=0.72];
   inputs [label="Reference PDF\n+ Test PDF", fillcolor="#DFEAF7", color="#7298C4"];
   align [label="Image Alignment\nORB + RANSAC\nHomography"];

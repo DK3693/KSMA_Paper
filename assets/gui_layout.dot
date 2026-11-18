@@ -1,6 +1,6 @@
 digraph GUI {
- graph [bgcolor="transparent", rankdir=TB, nodesep=0.20, ranksep=0.28, pad=0.2, fontname="Noto Sans CJK KR", label="VeriDoc Desktop Review Console · Layout Schematic", labelloc=t, fontsize=19, fontcolor="#1c375d"];
- node [shape=box, style="rounded,filled", fontname="Noto Sans CJK KR", fontsize=12, fontcolor="#1d3955", color="#9db7d5", fillcolor="#F0F5FA", penwidth=1.3, margin="0.18,0.13"];
+ graph [bgcolor="transparent", rankdir=TB, nodesep=0.20, ranksep=0.28, pad=0.2, fontname="Arial", label="Technical Document Review Console · Layout Schematic", labelloc=t, fontsize=19, fontcolor="#1c375d"];
+ node [shape=box, style="rounded,filled", fontname="Arial", fontsize=12, fontcolor="#1d3955", color="#9db7d5", fillcolor="#F0F5FA", penwidth=1.3, margin="0.18,0.13"];
  header [label="Reference PDF  |  Test PDF  |  Run Analysis  |  Progress  |  Summary / Logs", fillcolor="#DCE8F7"];
  left [label="Page Navigator\nRun selection\nNumeric / Visual filters\nPage-level status", width=2.6];
  bef [label="BEFORE Viewer\nPage preview\nZoom / pan\nBounding-box overlays", width=3.0, fillcolor="#EAF2FC"];

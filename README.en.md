@@ -1,4 +1,4 @@
-# KSMA Paper · KERI VeriDoc
+# KSMA Paper · Technical Document Analysis
 
 ### VLM-Guided OCR Candidate Selection for Numeric Change Localization
 
@@ -18,7 +18,7 @@
 
 Technical documents can contain repeated values and even repeated transitions such as `100 → 120` in different fields. Finding the changed value is only part of the task: the system must associate each event with its corresponding text region.
 
-**KERI VeriDoc** separates semantic interpretation from geometric localization. A first-stage VLM extracts change events and contextual cues. OCR provides detected text regions with candidate IDs. A second-stage VLM selects the matching IDs, and the selected OCR boxes determine the final coordinates.
+**The proposed approach** separates semantic interpretation from geometric localization. A first-stage VLM extracts change events and contextual cues. OCR provides detected text regions with candidate IDs. A second-stage VLM selects the matching IDs, and the selected OCR boxes determine the final coordinates.
 
 ## Engineering Contributions
 
